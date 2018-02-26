@@ -32,7 +32,7 @@ ul li img.zoom {
     top: -7px;
     height: 47px;
     padding: 10px 8px;
-    transform: scale(1.1);
+    transform: scale(0.2);
 }
 
 a, a:link, a:visited, a:hover {
