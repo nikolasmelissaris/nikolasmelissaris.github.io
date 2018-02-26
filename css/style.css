@@ -32,6 +32,7 @@ ul li img.zoom {
     top: -7px;
     height: 47px;
     padding: 10px 8px;
+    transform: scale(2);
 }
 ul li img.superzoom {
     top: -7px;
