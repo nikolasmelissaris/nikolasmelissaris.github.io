@@ -34,12 +34,7 @@ ul li img.zoom {
     padding: 10px 8px;
     transform: scale(2);
 }
-ul li img.superzoom {
-    top: -7px;
-    height: 47px;
-    padding: 10px 8px;
-    trasnform: scale(1.5);
-}
+
 a, a:link, a:visited, a:hover {
     color: #4499dd;
     text-decoration: none;
