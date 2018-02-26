@@ -50,6 +50,7 @@ img.background {
     top: 0;
     left: 0;
     height: 100%;
+    width: 50%;
 }
 section {
     position: fixed;
