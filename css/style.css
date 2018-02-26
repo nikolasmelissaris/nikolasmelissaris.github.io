@@ -31,7 +31,7 @@ ul li a:hover img {
 ul li img.zoom {
     top: -7px;
     height: 47px;
-    padding: 10px 8px;
+    padding: 10px 5px;
 }
 
 a, a:link, a:visited, a:hover {
