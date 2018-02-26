@@ -35,8 +35,9 @@ ul li img.zoom {
 }
 ul li img.superzoom {
     top: -7px;
-    height: 100px;
+    height: 47px;
     padding: 10px 8px;
+    trasnform: scale(1.5);
 }
 a, a:link, a:visited, a:hover {
     color: #4499dd;
