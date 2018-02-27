@@ -125,6 +125,7 @@ strong {
 
 #post-list {
     position: fixed;
+    left: 50%;
 }
 
 .blog-title {
