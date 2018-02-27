@@ -1,31 +1,88 @@
 <!DOCTYPE html>
 	<html>
 		<head>
-			<title>{{ page.title }}</title>
+			<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-114828137-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114828137-1');
+</script>
+
+			<meta charset='utf-8' />
+			<title>nikolas</title>
 			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/style.css">
+			<link rel='stylesheet' href='css/mobile.css' />
 			<link href='https://fonts.googleapis.com/css?family=Droid+Sans'
               rel='stylesheet' />
+			<link rel='icon' type='image/png' href='images/sketchstar.png' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
 		</head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-	        		<li><a href="/cv">CV</a></li>
-	        		<li><a href="/blog">Blog</a></li>
-	    		</ul>
-			</nav>
+			<img class='background' src='images/leaves.jpg' alt='A bunch of leaves and my awesome shoes.' />
+
+        <div class='credits-info'>
+            <span>i</span>
+
+            <div id='credits'>
+                This site was made with ❤️
+                in West Orange, NJ.<br/>
+
+		    Icons by <a href='http://www.177designs.com'>Pawel Kadysz</a>, 
+			    <a href='https://dakirby309.deviantart.com/'>Dakirby309</a>,
+                <a href='https://www.iconfinder.com/zlaten'>Webalys</a>,
+                <a href='https://www.iconfinder.com/iconbaandar'>IconBaandar Team</a>,
+		    <a href='https://www.iconfinder.com/Picons'>Picons.me</a>.<br/>
+
+                Photos by yours truly.<br/>
+		    
+		    Many thanks to my buddy <a href='https://dionyziz.com/'>Dionysis</a> for letting me use his beautiful layout.
+            </div>
+        </div>
+
+        <section><div>
+            <div class='card'>
+                <img src='images/bowface.png' alt='My face' class='avatar' />
+
+                <h1>Nikolas Melissaris</h1>
+
+                <ul>
+                    <li><a href='https://twitter.com/starfishPunk'><img
+                    src='images/twitter.png'
+                    alt='Blue Twitter bird' 
+		 	class='zoom' /></a></li>
+		    <li><a href='https://instagram.com/xasteri'><img
+                    src='images/instagram.png'
+                    alt='insta' /></a></li>
+                    <li><a href='https://github.com/nikolasmelissaris'><img
+                    src='images/github.png'
+                    alt='GitHub octocat' 
+		    	class='zoom' /></a></li>
+                    <li><a href='mailto:nikolasm@gmail.com'><img
+                    src='images/gmail.png'
+                    alt='Red Gmail envelope'
+                    	class='zoom' /></a></li>
+                    <li><a href='https://nikolasmelissaris.github.io/gpg'><img
+                    src='images/key.png'
+                    alt='Golden key'
+			class='zoom' /></a></li>
+		    <li><a href='https://nikolasmelissaris.github.io/cv/CV_2017.pdf'><img
+                    src='images/cv.png'
+                    alt='CV image' /></a></li>
+		    <li><a href='https://nikolasmelissaris.github.io/blog'><img
+                    src='images/pencil.png'
+                    alt='blog' /></a></li>	
+                </ul>
+            </div>
+
+
 			<div class="container">
 			
 			{{ content }}
 			
 			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:nikolas.melissaris@rutgers.edu">email</a></li>
-	        		<li><a href="https://github.com/nikolasmelissaris">github.com/nikolasmelissaris</a></li>
-				</ul>
-			</footer>
 		</body>
 	</html>
