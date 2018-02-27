@@ -126,4 +126,11 @@ strong {
 #post-list {
     position: fixed;
     left: -200px;
+    background: red;
+}
+
+.blog-title {
+    font-weight: normal;
+    margin: 0 0 0 160px;
+    padding: 0 13px;
 }
