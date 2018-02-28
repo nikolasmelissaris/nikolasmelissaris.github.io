@@ -123,7 +123,7 @@ strong {
     display: none;
 }
 
-#post-list {
+/*#post-list {
     position: fixed;
     left: 10%;
 }
@@ -132,7 +132,7 @@ strong {
     font-weight: normal;
     margin: 0 0 0 160px;
     padding: 0 13px;
-}
+}*/
 
 .container {
     position: fixed;
