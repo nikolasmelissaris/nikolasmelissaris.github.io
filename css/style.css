@@ -130,3 +130,26 @@ strong {
 .credits-info:hover span {
     display: none;
 }
+
+/* Publications list: bulletless, same left margin as .news, numbered */
+ol.pubs {
+  margin: 15px 0 15px 60px; /* matches .news */
+  padding: 0;
+  list-style-position: outside;   /* show decimal numbers */
+}
+
+/* nice spacing + hanging indent */
+ol.pubs li {
+  margin: 0 0 8px 0;
+  line-height: 1.44;
+  padding-left: 0.4rem;           /* small breathing room after the number */
+  text-indent: -0.4rem;           /* create a subtle hanging effect */
+}
+
+/* keep your pink for emphasis, but only for your name */
+.me { color: #DB7093; font-weight: 700; }
+
+/* small screens: reduce left margin to avoid crowding */
+@media (max-width: 800px) {
+  ol.pubs { margin-left: 20px; }
+}
