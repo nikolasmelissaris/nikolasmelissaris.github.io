@@ -134,7 +134,7 @@ strong {
 
 /* Publications list: bulletless, same left margin as .news, numbered */
 ol.pubs {
-  margin: 15px 0 15px 60px; /* matches .news */
+  margin: 15px 0 15px 10px; /* matches .news */
   padding: 0;
   list-style-position: outside;   /* show decimal numbers */
 }
@@ -155,7 +155,7 @@ ol.pubs li {
   ol.pubs { margin-left: 20px; }
 }
 
-em, i {
+em {
   font-family: "Noto Sans", sans-serif;
   font-style: italic;
 }
