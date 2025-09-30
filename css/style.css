@@ -153,3 +153,8 @@ ol.pubs li {
 @media (max-width: 800px) {
   ol.pubs { margin-left: 20px; }
 }
+
+em, i {
+  font-family: "Noto Sans", "Droid Sans", sans-serif;
+  font-style: italic;
+}
