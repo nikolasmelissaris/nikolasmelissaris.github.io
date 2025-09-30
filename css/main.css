@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Droid Sans', sans-serif;
+    font-synthesis: none;
     font-size: 18px;
     line-height: 1.44;
 }
