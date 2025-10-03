@@ -143,8 +143,8 @@ ol.pubs {
 ol.pubs li {
   margin: 0 0 10px 0;
   line-height: 1.44;
-  padding-left: 0.6rem;           /* small breathing room after the number */
-  text-indent: -0.6rem;           /* create a subtle hanging effect */
+  padding-left: 0.4rem;           /* small breathing room after the number */
+  text-indent: -0.4rem;           /* create a subtle hanging effect */
 }
 
 /* small screens: reduce left margin to avoid crowding */
