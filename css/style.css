@@ -141,14 +141,11 @@ ol.pubs {
 
 /* nice spacing + hanging indent */
 ol.pubs li {
-  margin: 0 0 8px 0;
+  margin: 0 0 10px 0;
   line-height: 1.44;
-  padding-left: 0.4rem;           /* small breathing room after the number */
-  text-indent: -0.4rem;           /* create a subtle hanging effect */
+  padding-left: 0.6rem;           /* small breathing room after the number */
+  text-indent: -0.6rem;           /* create a subtle hanging effect */
 }
-
-/* keep your pink for emphasis, but only for your name */
-.me { color: #DB7093; font-weight: 700; }
 
 /* small screens: reduce left margin to avoid crowding */
 @media (max-width: 800px) {
