@@ -32,7 +32,7 @@ ul li a {
     transition: top 0.2s;
 }
 ul li a:hover {
-    top: -3px;
+    top: -2px;
 }
 ul li a:hover img {
     padding-bottom: 15px;
