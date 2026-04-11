@@ -11,3 +11,72 @@
         display: none;
     }
 }
+
+@media (max-width: 900px) {
+    img.background {
+        display: none;
+    }
+
+    section {
+        position: static;
+        width: 100%;
+        height: auto;
+        box-shadow: none;
+    }
+
+    .credits-info {
+        display: none;
+    }
+
+    .card {
+        position: static;
+        left: 0;
+        overflow: visible;
+        text-align: center;
+    }
+
+    .avatar {
+        float: none;
+        display: block;
+        margin: 0 auto 15px auto;
+        width: 120px;
+        height: 120px;
+    }
+
+    h1 {
+        margin: 0 0 12px 0;
+        padding: 0;
+        text-align: center;
+    }
+
+    .card ul {
+        margin: 0 0 20px 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .card ul li img,
+    .card ul li img.zoom {
+        float: none;
+        position: static;
+        height: 32px;
+        padding: 6px;
+    }
+
+    .card ul li a {
+        position: static;
+    }
+
+    .card ul li a:hover {
+        top: 0;
+    }
+
+    .card ul li a:hover img {
+        padding-bottom: 6px;
+    }
+}
