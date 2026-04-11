@@ -2,20 +2,6 @@
     img.background {
         display: none;
     }
-    section {
-        position: static;
-        width: 100%;
-        height: auto;
-    }
-    .credits-info {
-        display: none;
-    }
-}
-
-@media (max-width: 900px) {
-    img.background {
-        display: none;
-    }
 
     section {
         position: static;
@@ -78,5 +64,14 @@
 
     .card ul li a:hover img {
         padding-bottom: 6px;
+    }
+}
+
+@media (max-width: 380px) {
+    .card ul {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        justify-content: center;
+        gap: 8px 16px;
     }
 }
